@@ -6,16 +6,16 @@ public class UsingTryCatch {
     public static void main(String[] args) {
         System.out.println("Please enter a number between 0 - 9 :");
 
-        Scanner sc = new Scanner(System.in);
+        try(Scanner sc = new Scanner(System.in)) {
+            String input = sc.nextLine();
 
-        String input = sc.nextLine();
+            int myNum = Integer.parseInt(input);
 
-        int myNum = Integer.parseInt(input);
-
-        if(myNum >= 0 && myNum <= 9) {
-            System.out.println("You entered " + myNum);
+            if (myNum >= 0 && myNum <= 9) {
+                System.out.println("You entered " + myNum);
+            }
         }
-        else {
+        catch (NumberFormatException e) {
             System.out.println("You entered an invalid number");
         }
     }
