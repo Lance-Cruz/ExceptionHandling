@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8642ec45-bb9e-4cc1-bfac-d4647292d7d0" name="Changes" comment="Initial Commit">
+    <list default="true" id="8642ec45-bb9e-4cc1-bfac-d4647292d7d0" name="Changes" comment="Added UsingTryCatch to check if the number 0-9 was inputted">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ie/atu/week6/UsingTryCatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ie/atu/week6/UsingTryCatch.java" afterDir="false" />
     </list>
@@ -51,12 +51,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "Application.UsingTryCatch.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "Retry",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/LANCECRUZ-STUDENT/OneDrive - Atlantic TU/Year 2 Semester 1/Object Oriented Programming/Labs/ExceptionHandling",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -83,7 +81,7 @@
       <option name="presentableId" value="Default" />
       <updated>1729686428937</updated>
       <workItem from="1729686430008" duration="488000" />
-      <workItem from="1729695606813" duration="1014000" />
+      <workItem from="1729701164560" duration="542000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
